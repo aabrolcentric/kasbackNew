@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
                     </span>
-                    <div class="method-list-content passed suite-Default_suite">
+                    <div class="method-list-content failed suite-Default_suite">
                       <span>
-                        <img src="passed.png" width="3%"/>
+                        <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="com.kasback.webApplication.uiTesting.KasbackOrderSummary" class="method navigator-link" hash-for-method="verifyOrderSummary">verifyOrderSummary</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Default_suite -->
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,9 +117,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+          <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.kasback.webApplication.uiTesting.KasbackOrderSummary</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -128,14 +128,46 @@
                   <a name="verifyOrderSummary">
                   </a> <!-- verifyOrderSummary -->
                   <span class="method-name">verifyOrderSummary</span>
+                  <div class="stack-trace">java.lang.ArrayIndexOutOfBoundsException: 0
+	at com.kasback.abstestbase.AbstractPage.getWebElement(AbstractPage.java:254)
+	at com.kasback.abstestbase.AbstractPage.getWebElementText(AbstractPage.java:275)
+	at com.kasback.pages.KasbackOrderSummaryPage.verifyOrderDetails(KasbackOrderSummaryPage.java:45)
+	at com.kasback.webApplication.uiTesting.KasbackOrderSummary.verifyOrderSummary(KasbackOrderSummary.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
+          </div> <!-- suite-Default_suite-class-failed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/kg/80ft9l5159dfbbpljm1rtjt80000gn/T/testng-eclipse-924510617/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/kg/80ft9l5159dfbbpljm1rtjt80000gn/T/testng-eclipse--363299678/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -192,7 +224,7 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyOrderSummary')
 data.setCell(0, 2, 'com.kasback.webApplication.uiTesting.KasbackOrderSummary')
-data.setCell(0, 3, 60342);
+data.setCell(0, 3, 71900);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
@@ -211,41 +243,41 @@ return data;
             <div class="reporter-method-div">
               <span class="reporter-method-name">verifyOrderSummary</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output"><tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//46a502dd-4a95-4d9e-96c2-2e124636b298.png"><p align="left">           Sat Jan 05 00:15:29 IST 2019</p></span>
-                <span class="reporter-method-output"><p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//46a502dd-4a95-4d9e-96c2-2e124636b298.png" alt="executed onSat Jan 05 00:15:29 IST 2019"/></p></a></font></td></span>
+                <span class="reporter-method-output"><tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//fb4abf0c-452a-4ce1-b502-1fe061c31491.png"><p align="left">           Tue Jan 08 13:30:17 IST 2019</p></span>
+                <span class="reporter-method-output"><p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//fb4abf0c-452a-4ce1-b502-1fe061c31491.png" alt="executed onTue Jan 08 13:30:18 IST 2019"/></p></a></font></td></span>
                 <span class="reporter-method-output"><td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr></span>
-                <span class="reporter-method-output"><tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//56f0cb27-57d7-4fae-97c0-5cc026066027.png"><p align="left">           Sat Jan 05 00:15:31 IST 2019</p></span>
-                <span class="reporter-method-output"><p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//56f0cb27-57d7-4fae-97c0-5cc026066027.png" alt="executed onSat Jan 05 00:15:31 IST 2019"/></p></a></font></td></span>
+                <span class="reporter-method-output"><tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//352f445a-756b-4e01-bc98-ffe407c2d036.png"><p align="left">           Tue Jan 08 13:30:19 IST 2019</p></span>
+                <span class="reporter-method-output"><p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//352f445a-756b-4e01-bc98-ffe407c2d036.png" alt="executed onTue Jan 08 13:30:19 IST 2019"/></p></a></font></td></span>
                 <span class="reporter-method-output"><td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr></span>
-                <span class="reporter-method-output"><tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//59f54467-4b39-4bc9-a12e-3259f5aa5df7.png"><p align="left">           Sat Jan 05 00:15:34 IST 2019</p></span>
-                <span class="reporter-method-output"><p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//59f54467-4b39-4bc9-a12e-3259f5aa5df7.png" alt="executed onSat Jan 05 00:15:34 IST 2019"/></p></a></font></td></span>
+                <span class="reporter-method-output"><tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//074939fe-9d5d-4be1-a321-4d3fcdd3d629.png"><p align="left">           Tue Jan 08 13:30:21 IST 2019</p></span>
+                <span class="reporter-method-output"><p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//074939fe-9d5d-4be1-a321-4d3fcdd3d629.png" alt="executed onTue Jan 08 13:30:21 IST 2019"/></p></a></font></td></span>
                 <span class="reporter-method-output"><td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr></span>
-                <span class="reporter-method-output"><tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//3477bb92-0f25-43e3-a6dd-7d2393aadfcd.png"><p align="left">           Sat Jan 05 00:15:46 IST 2019</p></span>
-                <span class="reporter-method-output"><p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//3477bb92-0f25-43e3-a6dd-7d2393aadfcd.png" alt="executed onSat Jan 05 00:15:46 IST 2019"/></p></a></font></td></span>
+                <span class="reporter-method-output"><tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//db9f0a3d-0821-4c0b-95da-7f7729062a29.png"><p align="left">           Tue Jan 08 13:30:33 IST 2019</p></span>
+                <span class="reporter-method-output"><p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//db9f0a3d-0821-4c0b-95da-7f7729062a29.png" alt="executed onTue Jan 08 13:30:33 IST 2019"/></p></a></font></td></span>
                 <span class="reporter-method-output"><td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr></span>
-                <span class="reporter-method-output"><tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//8f9c75ed-b0db-4580-8f94-bfb269e0e47b.png"><p align="left">           Sat Jan 05 00:15:47 IST 2019</p></span>
-                <span class="reporter-method-output"><p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//8f9c75ed-b0db-4580-8f94-bfb269e0e47b.png" alt="executed onSat Jan 05 00:15:47 IST 2019"/></p></a></font></td></span>
+                <span class="reporter-method-output"><tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//fe93cb46-2472-4b87-8c6c-59ef20294690.png"><p align="left">           Tue Jan 08 13:30:34 IST 2019</p></span>
+                <span class="reporter-method-output"><p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//fe93cb46-2472-4b87-8c6c-59ef20294690.png" alt="executed onTue Jan 08 13:30:34 IST 2019"/></p></a></font></td></span>
                 <span class="reporter-method-output"><td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr></span>
-                <span class="reporter-method-output"><tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//ba63c9f3-757e-4cc1-8324-7e977e5f7070.png"><p align="left">           Sat Jan 05 00:15:49 IST 2019</p></span>
-                <span class="reporter-method-output"><p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//ba63c9f3-757e-4cc1-8324-7e977e5f7070.png" alt="executed onSat Jan 05 00:15:49 IST 2019"/></p></a></font></td></span>
+                <span class="reporter-method-output"><tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//b8e995a5-0d5e-419b-a2e8-a5c8beeff4f0.png"><p align="left">           Tue Jan 08 13:30:36 IST 2019</p></span>
+                <span class="reporter-method-output"><p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//b8e995a5-0d5e-419b-a2e8-a5c8beeff4f0.png" alt="executed onTue Jan 08 13:30:36 IST 2019"/></p></a></font></td></span>
                 <span class="reporter-method-output"><td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr></span>
-                <span class="reporter-method-output"><tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//e7344d24-2395-4be8-9a93-0a3133deaf2a.png"><p align="left">           Sat Jan 05 00:15:53 IST 2019</p></span>
-                <span class="reporter-method-output"><p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//e7344d24-2395-4be8-9a93-0a3133deaf2a.png" alt="executed onSat Jan 05 00:15:53 IST 2019"/></p></a></font></td></span>
+                <span class="reporter-method-output"><tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//20b30e3c-769c-4453-8cc7-aa8084d1c19c.png"><p align="left">           Tue Jan 08 13:30:40 IST 2019</p></span>
+                <span class="reporter-method-output"><p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//20b30e3c-769c-4453-8cc7-aa8084d1c19c.png" alt="executed onTue Jan 08 13:30:40 IST 2019"/></p></a></font></td></span>
                 <span class="reporter-method-output"><td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr></span>
-                <span class="reporter-method-output"><tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//cff061ac-5524-490c-8586-346291a634f1.png"><p align="left">           Sat Jan 05 00:15:56 IST 2019</p></span>
-                <span class="reporter-method-output"><p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//cff061ac-5524-490c-8586-346291a634f1.png" alt="executed onSat Jan 05 00:15:56 IST 2019"/></p></a></font></td></span>
+                <span class="reporter-method-output"><tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//7a68e087-5a01-42bc-905b-097ab953478f.png"><p align="left">           Tue Jan 08 13:30:42 IST 2019</p></span>
+                <span class="reporter-method-output"><p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//7a68e087-5a01-42bc-905b-097ab953478f.png" alt="executed onTue Jan 08 13:30:42 IST 2019"/></p></a></font></td></span>
                 <span class="reporter-method-output"><td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr></span>
-                <span class="reporter-method-output"><tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//d48fefa8-fbaa-4387-9109-ed1a86d12fda.png"><p align="left">           Sat Jan 05 00:15:57 IST 2019</p></span>
-                <span class="reporter-method-output"><p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//d48fefa8-fbaa-4387-9109-ed1a86d12fda.png" alt="executed onSat Jan 05 00:15:57 IST 2019"/></p></a></font></td></span>
+                <span class="reporter-method-output"><tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//cb0e6eb5-710f-4eb5-b0c2-1fe14f3fa547.png"><p align="left">           Tue Jan 08 13:30:43 IST 2019</p></span>
+                <span class="reporter-method-output"><p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//cb0e6eb5-710f-4eb5-b0c2-1fe14f3fa547.png" alt="executed onTue Jan 08 13:30:43 IST 2019"/></p></a></font></td></span>
                 <span class="reporter-method-output"><td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr></span>
-                <span class="reporter-method-output"><tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//05cac527-5790-4356-852b-182d588d7433.png"><p align="left">           Sat Jan 05 00:15:58 IST 2019</p></span>
-                <span class="reporter-method-output"><p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//05cac527-5790-4356-852b-182d588d7433.png" alt="executed onSat Jan 05 00:15:58 IST 2019"/></p></a></font></td></span>
+                <span class="reporter-method-output"><tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//dd20259b-18bc-442d-831a-9c37189f4f73.png"><p align="left">           Tue Jan 08 13:30:44 IST 2019</p></span>
+                <span class="reporter-method-output"><p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//dd20259b-18bc-442d-831a-9c37189f4f73.png" alt="executed onTue Jan 08 13:30:44 IST 2019"/></p></a></font></td></span>
                 <span class="reporter-method-output"><td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr></span>
-                <span class="reporter-method-output"><tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//b55bb876-9df9-4b7d-bbb7-196df7af1963.png"><p align="left">           Sat Jan 05 00:16:01 IST 2019</p></span>
-                <span class="reporter-method-output"><p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//b55bb876-9df9-4b7d-bbb7-196df7af1963.png" alt="executed onSat Jan 05 00:16:01 IST 2019"/></p></a></font></td></span>
+                <span class="reporter-method-output"><tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//f92553be-d58f-4dee-b9f3-7d7f62d69c72.png"><p align="left">           Tue Jan 08 13:30:48 IST 2019</p></span>
+                <span class="reporter-method-output"><p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//f92553be-d58f-4dee-b9f3-7d7f62d69c72.png" alt="executed onTue Jan 08 13:30:48 IST 2019"/></p></a></font></td></span>
                 <span class="reporter-method-output"><td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr></span>
-                <span class="reporter-method-output"><tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//179434fe-eba6-4ea8-a231-f8333e929e36.png"><p align="left">           Sat Jan 05 00:16:12 IST 2019</p></span>
-                <span class="reporter-method-output"><p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//179434fe-eba6-4ea8-a231-f8333e929e36.png" alt="executed onSat Jan 05 00:16:12 IST 2019"/></p></a></font></td></span>
+                <span class="reporter-method-output"><tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//102a6386-a235-4a29-a2c6-c51f39d2183a.png"><p align="left">           Tue Jan 08 13:30:59 IST 2019</p></span>
+                <span class="reporter-method-output"><p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//102a6386-a235-4a29-a2c6-c51f39d2183a.png" alt="executed onTue Jan 08 13:30:59 IST 2019"/></p></a></font></td></span>
                 <span class="reporter-method-output"><td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
@@ -270,12 +302,14 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">verifyOrderSummary</span>
-                <span class="method-start">1620 ms</span>
+                <span class="method-start">2800 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">61967 ms</span>
+                <span class="method-start">74707 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

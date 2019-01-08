@@ -1,14 +1,14 @@
-2019-01-05 00:15:11 INFO  com.kasback.abstestbase.AbstractTest.printBanner(AbstractTest.java:69) - ========================================= TEST SUITE STARTED ================================
-2019-01-05 00:15:11 INFO  com.kasback.abstestbase.AbstractTest.beforesuite(AbstractTest.java:38) - before env->test
-2019-01-05 00:15:11 INFO  com.kasback.abstestbase.AbstractTest.beforesuite(AbstractTest.java:39) - before browser->chrome
-2019-01-05 00:15:12 INFO  com.kasback.utils.PostgresqlUtil.<init>(PostgresqlUtil.java:30) - jdbc:mysql://kasback.chrp5tjafhuc.ap-south-1.rds.amazonaws.com/kasback/agam:uioue832jksj
-2019-01-05 00:15:13 INFO  com.kasback.abstestbase.AbstractTest.getDriver(AbstractTest.java:80) - false
-2019-01-05 00:15:13 INFO  com.kasback.abstestbase.AbstractTest.getDriver(AbstractTest.java:98) - running on browser chrome
-2019-01-05 00:15:13 INFO  com.kasback.abstestbase.AbstractTest.getDriver(AbstractTest.java:100) - chrome
-2019-01-05 00:15:13 INFO  com.kasback.abstestbase.AbstractTest.getDriver(AbstractTest.java:150) - starting chrome driver on local
-2019-01-05 00:15:19 INFO  com.kasback.utils.PostgresqlUtil.<init>(PostgresqlUtil.java:30) - jdbc:mysql://kasback.chrp5tjafhuc.ap-south-1.rds.amazonaws.com/kasback/agam:uioue832jksj
-2019-01-05 00:15:19 INFO  com.kasback.utils.PostgresqlUtil.<init>(PostgresqlUtil.java:30) - jdbc:mysql://kasback.chrp5tjafhuc.ap-south-1.rds.amazonaws.com/kasback/agam:uioue832jksj
-2019-01-05 00:15:20 INFO  com.kasback.utils.PostgresqlUtil.<init>(PostgresqlUtil.java:30) - jdbc:mysql://kasback.chrp5tjafhuc.ap-south-1.rds.amazonaws.com/kasback/agam:uioue832jksj
-2019-01-05 00:15:31 INFO  com.kasback.utils.PostgresqlUtil.<init>(PostgresqlUtil.java:30) - jdbc:mysql://kasback.chrp5tjafhuc.ap-south-1.rds.amazonaws.com/kasback/agam:uioue832jksj
-2019-01-05 00:15:46 INFO  com.kasback.utils.PostgresqlUtil.<init>(PostgresqlUtil.java:30) - jdbc:mysql://kasback.chrp5tjafhuc.ap-south-1.rds.amazonaws.com/kasback/agam:uioue832jksj
-2019-01-05 00:15:49 INFO  com.kasback.utils.PostgresqlUtil.<init>(PostgresqlUtil.java:30) - jdbc:mysql://kasback.chrp5tjafhuc.ap-south-1.rds.amazonaws.com/kasback/agam:uioue832jksj
+2019-01-08 13:29:54 INFO  com.kasback.abstestbase.AbstractTest.printBanner(AbstractTest.java:69) - ========================================= TEST SUITE STARTED ================================
+2019-01-08 13:29:54 INFO  com.kasback.abstestbase.AbstractTest.beforesuite(AbstractTest.java:38) - before env->test
+2019-01-08 13:29:54 INFO  com.kasback.abstestbase.AbstractTest.beforesuite(AbstractTest.java:39) - before browser->chrome
+2019-01-08 13:29:55 INFO  com.kasback.utils.PostgresqlUtil.<init>(PostgresqlUtil.java:30) - jdbc:mysql://kasback.chrp5tjafhuc.ap-south-1.rds.amazonaws.com/kasback/agam:uioue832jksj
+2019-01-08 13:29:57 INFO  com.kasback.abstestbase.AbstractTest.getDriver(AbstractTest.java:80) - false
+2019-01-08 13:29:57 INFO  com.kasback.abstestbase.AbstractTest.getDriver(AbstractTest.java:98) - running on browser chrome
+2019-01-08 13:29:57 INFO  com.kasback.abstestbase.AbstractTest.getDriver(AbstractTest.java:100) - chrome
+2019-01-08 13:29:57 INFO  com.kasback.abstestbase.AbstractTest.getDriver(AbstractTest.java:150) - starting chrome driver on local
+2019-01-08 13:30:04 INFO  com.kasback.utils.PostgresqlUtil.<init>(PostgresqlUtil.java:30) - jdbc:mysql://kasback.chrp5tjafhuc.ap-south-1.rds.amazonaws.com/kasback/agam:uioue832jksj
+2019-01-08 13:30:04 INFO  com.kasback.utils.PostgresqlUtil.<init>(PostgresqlUtil.java:30) - jdbc:mysql://kasback.chrp5tjafhuc.ap-south-1.rds.amazonaws.com/kasback/agam:uioue832jksj
+2019-01-08 13:30:05 INFO  com.kasback.utils.PostgresqlUtil.<init>(PostgresqlUtil.java:30) - jdbc:mysql://kasback.chrp5tjafhuc.ap-south-1.rds.amazonaws.com/kasback/agam:uioue832jksj
+2019-01-08 13:30:19 INFO  com.kasback.utils.PostgresqlUtil.<init>(PostgresqlUtil.java:30) - jdbc:mysql://kasback.chrp5tjafhuc.ap-south-1.rds.amazonaws.com/kasback/agam:uioue832jksj
+2019-01-08 13:30:33 INFO  com.kasback.utils.PostgresqlUtil.<init>(PostgresqlUtil.java:30) - jdbc:mysql://kasback.chrp5tjafhuc.ap-south-1.rds.amazonaws.com/kasback/agam:uioue832jksj
+2019-01-08 13:30:36 INFO  com.kasback.utils.PostgresqlUtil.<init>(PostgresqlUtil.java:30) - jdbc:mysql://kasback.chrp5tjafhuc.ap-south-1.rds.amazonaws.com/kasback/agam:uioue832jksj
