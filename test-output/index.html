@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.kasback.webApplication.uiTesting.KasbackOrderSummary" class="method navigator-link" hash-for-method="verifyOrderSummary">verifyOrderSummary</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.kasback.webApplication.uiTesting.KasbackOrderSummary</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyOrderSummary">
+                  </a> <!-- verifyOrderSummary -->
+                  <span class="method-name">verifyOrderSummary</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/private/var/folders/kg/80ft9l5159dfbbpljm1rtjt80000gn/T/testng-eclipse-924510617/testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.kasback.webApplication.uiTesting.KasbackOrderSummary&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verifyOrderSummary&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.kasback.webApplication.uiTesting.KasbackOrderSummary --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyOrderSummary')
+data.setCell(0, 2, 'com.kasback.webApplication.uiTesting.KasbackOrderSummary')
+data.setCell(0, 3, 60342);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyOrderSummary</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//46a502dd-4a95-4d9e-96c2-2e124636b298.png"><p align="left">           Sat Jan 05 00:15:29 IST 2019</p></span>
+                <span class="reporter-method-output"><p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//46a502dd-4a95-4d9e-96c2-2e124636b298.png" alt="executed onSat Jan 05 00:15:29 IST 2019"/></p></a></font></td></span>
+                <span class="reporter-method-output"><td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr></span>
+                <span class="reporter-method-output"><tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//56f0cb27-57d7-4fae-97c0-5cc026066027.png"><p align="left">           Sat Jan 05 00:15:31 IST 2019</p></span>
+                <span class="reporter-method-output"><p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//56f0cb27-57d7-4fae-97c0-5cc026066027.png" alt="executed onSat Jan 05 00:15:31 IST 2019"/></p></a></font></td></span>
+                <span class="reporter-method-output"><td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr></span>
+                <span class="reporter-method-output"><tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//59f54467-4b39-4bc9-a12e-3259f5aa5df7.png"><p align="left">           Sat Jan 05 00:15:34 IST 2019</p></span>
+                <span class="reporter-method-output"><p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//59f54467-4b39-4bc9-a12e-3259f5aa5df7.png" alt="executed onSat Jan 05 00:15:34 IST 2019"/></p></a></font></td></span>
+                <span class="reporter-method-output"><td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr></span>
+                <span class="reporter-method-output"><tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//3477bb92-0f25-43e3-a6dd-7d2393aadfcd.png"><p align="left">           Sat Jan 05 00:15:46 IST 2019</p></span>
+                <span class="reporter-method-output"><p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//3477bb92-0f25-43e3-a6dd-7d2393aadfcd.png" alt="executed onSat Jan 05 00:15:46 IST 2019"/></p></a></font></td></span>
+                <span class="reporter-method-output"><td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr></span>
+                <span class="reporter-method-output"><tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//8f9c75ed-b0db-4580-8f94-bfb269e0e47b.png"><p align="left">           Sat Jan 05 00:15:47 IST 2019</p></span>
+                <span class="reporter-method-output"><p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//8f9c75ed-b0db-4580-8f94-bfb269e0e47b.png" alt="executed onSat Jan 05 00:15:47 IST 2019"/></p></a></font></td></span>
+                <span class="reporter-method-output"><td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr></span>
+                <span class="reporter-method-output"><tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//ba63c9f3-757e-4cc1-8324-7e977e5f7070.png"><p align="left">           Sat Jan 05 00:15:49 IST 2019</p></span>
+                <span class="reporter-method-output"><p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//ba63c9f3-757e-4cc1-8324-7e977e5f7070.png" alt="executed onSat Jan 05 00:15:49 IST 2019"/></p></a></font></td></span>
+                <span class="reporter-method-output"><td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr></span>
+                <span class="reporter-method-output"><tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//e7344d24-2395-4be8-9a93-0a3133deaf2a.png"><p align="left">           Sat Jan 05 00:15:53 IST 2019</p></span>
+                <span class="reporter-method-output"><p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//e7344d24-2395-4be8-9a93-0a3133deaf2a.png" alt="executed onSat Jan 05 00:15:53 IST 2019"/></p></a></font></td></span>
+                <span class="reporter-method-output"><td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr></span>
+                <span class="reporter-method-output"><tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//cff061ac-5524-490c-8586-346291a634f1.png"><p align="left">           Sat Jan 05 00:15:56 IST 2019</p></span>
+                <span class="reporter-method-output"><p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//cff061ac-5524-490c-8586-346291a634f1.png" alt="executed onSat Jan 05 00:15:56 IST 2019"/></p></a></font></td></span>
+                <span class="reporter-method-output"><td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr></span>
+                <span class="reporter-method-output"><tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//d48fefa8-fbaa-4387-9109-ed1a86d12fda.png"><p align="left">           Sat Jan 05 00:15:57 IST 2019</p></span>
+                <span class="reporter-method-output"><p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//d48fefa8-fbaa-4387-9109-ed1a86d12fda.png" alt="executed onSat Jan 05 00:15:57 IST 2019"/></p></a></font></td></span>
+                <span class="reporter-method-output"><td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr></span>
+                <span class="reporter-method-output"><tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//05cac527-5790-4356-852b-182d588d7433.png"><p align="left">           Sat Jan 05 00:15:58 IST 2019</p></span>
+                <span class="reporter-method-output"><p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//05cac527-5790-4356-852b-182d588d7433.png" alt="executed onSat Jan 05 00:15:58 IST 2019"/></p></a></font></td></span>
+                <span class="reporter-method-output"><td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr></span>
+                <span class="reporter-method-output"><tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//b55bb876-9df9-4b7d-bbb7-196df7af1963.png"><p align="left">           Sat Jan 05 00:16:01 IST 2019</p></span>
+                <span class="reporter-method-output"><p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//b55bb876-9df9-4b7d-bbb7-196df7af1963.png" alt="executed onSat Jan 05 00:16:01 IST 2019"/></p></a></font></td></span>
+                <span class="reporter-method-output"><td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr></span>
+                <span class="reporter-method-output"><tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//179434fe-eba6-4ea8-a231-f8333e929e36.png"><p align="left">           Sat Jan 05 00:16:12 IST 2019</p></span>
+                <span class="reporter-method-output"><p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//179434fe-eba6-4ea8-a231-f8333e929e36.png" alt="executed onSat Jan 05 00:16:12 IST 2019"/></p></a></font></td></span>
+                <span class="reporter-method-output"><td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kasback.webApplication.uiTesting.KasbackOrderSummary</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforesuite(test, chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">verifyOrderSummary</span>
+                <span class="method-start">1620 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">61967 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

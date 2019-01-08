@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Landing Page Tests"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="67.858">
+  <properties />
+  
+  
+            <testcase name="goToLandingPage" time="22.556" classname="com.volksHelp.webApplication.uiTesting.LandingPage" />
+                <testcase name="placeOrderRequest" time="45.302" classname="com.volksHelp.webApplication.uiTesting.LandingPage" />
+      
+</testsuite>
