@@ -56,6 +56,21 @@ public class UITestBase extends TestBase{
 		
 	}
 	
+	public String getOrderId() {
+		String orderId = pgutil.executeSelectQuery("select * from kasback.buyer_order_product order by created desc limit 1;");
+		return orderId;
+	}
 	
+	public void updateOrderStatus() {
+		pgutil1.executeUpdateQuery("update buyer_order_product set order_status="+"'shipped'"+ " where id="+getOrderId()+";");
+	}
+	
+	public void deactivateSeller(String sellerEmail) {
+		pgutil1.executeUpdateQuery("update kasback.user set is_deleted=1 where email='"+sellerEmail+"';");
+	}
+	
+	public void activateSeller(String sellerEmail) {
+		pgutil1.executeUpdateQuery("update kasback.user set is_deleted=0 where email='"+sellerEmail+"';");
+	}
 
 }

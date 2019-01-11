@@ -1,9 +1,11 @@
 package com.kasback.pages;
 
+import java.util.NoSuchElementException;
 import java.util.Random;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.server.handler.GetCurrentUrl;
 import org.testng.annotations.BeforeClass;
 
 import com.kasback.abstestbase.AbstractPage;
@@ -102,6 +104,11 @@ public class KasbackLoginPage extends AbstractPage{
 		return buyerId;
 	}
 	
+	public void signUpWithBlockedId(String email) {
+		signUpCommon("Buyer", email);
+		checkPageIsReady();
+	}
+	
 	public String signUpAsSeller() {
 		signUpCommon("Seller", sellerId);
 		checkPageIsReady();
@@ -113,6 +120,15 @@ public class KasbackLoginPage extends AbstractPage{
 		getWebElement("enterEmail").sendKeys(emailId);
 		getWebElement("enterPassword").sendKeys(password);
 		click(getWebElement("loginButton"));
+		try {
+			if(isWebElementPresent("okButton")==true) {
+			String errorText=getWebElementText("loginErrorContent");
+			log.info(errorText);
+			click(getWebElement("okButton"));
+			}
+		}catch(NoSuchElementException e) {
+			log.info("Login Not Successful");
+		}
 		return new KasbackLoginPage(driver);
 	}
 	

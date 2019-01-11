@@ -29,8 +29,10 @@ public class KasbackFavourites extends AbstractTest{
 			loginPage.browseURL(environment.get("baseurl"));
 			loginPage.login(existingUserId);
 			homepage.selectAProduct("apple fresh fruits");
+			//Add a product to favorites
 			favouritesPage.clickAddToFavoritesButtonAndVerify();
 			favouritesPage.goToFavouritesPage();
+			//Remove a product from favorites
 			favouritesPage.deleteProductFromFavourites();
 		}
 		

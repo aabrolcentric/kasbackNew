@@ -61,6 +61,7 @@ public class KasbackOrderWorkflows extends AbstractTest{
 		workflowsPage = new KasbackOrderWorkflowsPage(driver);
 		homepage.selectAProduct("apple fresh fruits");
 		workflowsPage.clickBuyNowButton();
+		//Add a new address
 		workflowsPage.manageAddress();
 		workflowsPage.selectWalletPaymentMethod();
 		String ordersCount = pgutil.executeSelectQuery("select count(*) from kasback.order where buyer_id in (select id from kasback.user where email="+"'"+emailId+"')");
@@ -68,19 +69,23 @@ public class KasbackOrderWorkflows extends AbstractTest{
 		Assert.assertEquals(ordersCount, "1");
 	}
 	
+	//Add a product to cart 
 	@Test(dependsOnMethods="loginWithExistingCustomer")
 	public void AddProductToCart() {
 		workflowsPage = new KasbackOrderWorkflowsPage(driver);
 		homepage =  new KasbackHomePage(driver);
 		homepage.selectAProduct("apple fresh fruits");
+		//Check that the cart icon is showing the number of products present in the cart
 		workflowsPage.clickAddToCartButtonAndVerify();
 	}
 	
+	//Increase/Decrese product quantity of Product in Cart
 	@Test(dependsOnMethods="AddProductToCart")
 	public void changeOrderQuantity() {
 		workflowsPage.increaseDecreaseOrderQuantity();
 	}
 	
+	//Remove a product from cart
 	@Test(dependsOnMethods="changeOrderQuantity")
 	public void removeProductFromCart() {
 		workflowsPage.removeProduct();
@@ -94,6 +99,7 @@ public class KasbackOrderWorkflows extends AbstractTest{
 		loginPage.login(existingUserId);
 	}
 	
+	//Search for a non-existing product in Search bar
 	@Test(dependsOnMethods="loginWithExistingCustomer")
 	public void searchForNonExistingProduct() {
 		loginPage = new KasbackLoginPage(driver);

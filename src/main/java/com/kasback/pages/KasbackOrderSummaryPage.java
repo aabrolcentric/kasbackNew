@@ -46,7 +46,8 @@ public class KasbackOrderSummaryPage extends AbstractPage {
 		Assert.assertEquals(currentMonthAndDate, orderDate.substring(0, 6).replace(",", " "));
 	}
 
-	public void viewShippingDetailsAndVerify() {
+	public void viewShippingDetailsAndVerify(String OrderStatus) {
+		refreshPage();
 		click(getWebElement("viewShippingDetailsButton"));
 		checkPageIsReady();
 		try {
@@ -55,8 +56,10 @@ public class KasbackOrderSummaryPage extends AbstractPage {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		String orderStatus = getWebElementText("orderStatus");
+		String orderStatus = getWebElementValue("orderStatus");
 		System.out.println(orderStatus);
-		Assert.assertEquals(orderStatus, "orderplaced");
+		Assert.assertEquals(orderStatus, OrderStatus);
+		click(getWebElement("closeShippingDetailsModal"));
 	}
+
 }

@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.kasback.webApplication.uiTesting.KasbackOrderSummary">
+      <class name="com.kasback.webApplication.uiTesting.KasbackOrderWorkflows">
         <methods>
-          <include name="afterClass"/>
+          <include name="AddProductToCart"/>
           <include name="beforesuite"/>
-          <include name="verifyOrderSummary"/>
+          <include name="changeOrderQuantity"/>
+          <include name="loginWithExistingCustomer"/>
         </methods>
-      </class> <!-- com.kasback.webApplication.uiTesting.KasbackOrderSummary -->
+      </class> <!-- com.kasback.webApplication.uiTesting.KasbackOrderWorkflows -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

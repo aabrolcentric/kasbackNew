@@ -19,6 +19,7 @@ public class KasbackHome extends AbstractTest{
 	KasbackProfilePage profilePage = null;
 	String existingUserId = "username2299@gmail.com";
 	
+	//Check more information about the product by clicking on 'More' button - Home page
 	@Test
 	public void viewProductDetails() {
 		driver = getDriver();
@@ -46,9 +47,9 @@ public class KasbackHome extends AbstractTest{
 	
 	
 	
-	@AfterClass()
-	public void quitDriver() {
-		driver.quit();
-	}
+//	@AfterClass()
+//	public void quitDriver() {
+//		driver.quit();
+//	}
 	
 }

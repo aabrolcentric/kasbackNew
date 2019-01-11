@@ -275,6 +275,10 @@ public abstract class AbstractPage extends PageObject{
 		return getWebElement(locator).getText();
 	}
 	
+	public String getWebElementValue(String locator) {
+		return getWebElement(locator).getAttribute("value");
+	}
+	
 	public String getLocatorPath() {
 		return UiConstants.LOCATORS_PATH + "/" + this.getClass().getSimpleName() + ".properties";
 	}
@@ -502,6 +506,10 @@ public abstract class AbstractPage extends PageObject{
 	public boolean isTextPresentInPage(String text2Search) {
 		return driver.getPageSource().contains(text2Search);
 
+	}
+	
+	public void refreshPage() {
+		driver.navigate().refresh();
 	}
 
 	public void selectByOption(WebElement element, String data) {

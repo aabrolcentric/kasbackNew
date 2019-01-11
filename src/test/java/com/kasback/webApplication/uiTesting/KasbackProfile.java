@@ -25,12 +25,14 @@ public class KasbackProfile extends AbstractTest{
 		profilePage.goToEditProfile();
 	}
 	
+	//Edit Profile as Buyer (User type and email should not be editable)
 	@Test(dependsOnMethods="loginWithExistingCustomerAndGoToProfilePage")
 	public void checkUserTypeAndEmailNotEditable() {
 		profilePage.checkFieldIsEditable("email");
 		profilePage.checkFieldIsEditable("userType");
 	}
 	
+	//Try editing invalid format. Example: Add characters in Phone Number field
 	@Test(dependsOnMethods="loginWithExistingCustomerAndGoToProfilePage")
 	public void checkValidation() {
 		profilePage.checkFieldValidation("phone", "aaaaaaaaaa");
