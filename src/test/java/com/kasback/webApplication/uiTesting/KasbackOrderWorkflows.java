@@ -69,6 +69,13 @@ public class KasbackOrderWorkflows extends AbstractTest{
 		Assert.assertEquals(ordersCount, "1");
 	}
 	
+	//Add new Product in Inventory
+	@Test
+	public void addNewProduct() {
+		workflowsPage = new KasbackOrderWorkflowsPage(driver);
+		homepage =  new KasbackHomePage(driver);
+	}
+	
 	//Add a product to cart 
 	@Test(dependsOnMethods="loginWithExistingCustomer")
 	public void AddProductToCart() {

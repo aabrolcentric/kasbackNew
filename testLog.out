@@ -1,12 +1,12 @@
-2019-01-11 00:56:24 INFO  com.kasback.abstestbase.AbstractTest.printBanner(AbstractTest.java:69) - ========================================= TEST SUITE STARTED ================================
-2019-01-11 00:56:24 INFO  com.kasback.abstestbase.AbstractTest.beforesuite(AbstractTest.java:38) - before env->test
-2019-01-11 00:56:24 INFO  com.kasback.abstestbase.AbstractTest.beforesuite(AbstractTest.java:39) - before browser->chrome
-2019-01-11 00:56:24 INFO  com.kasback.utils.PostgresqlUtil.<init>(PostgresqlUtil.java:30) - jdbc:mysql://kasback.chrp5tjafhuc.ap-south-1.rds.amazonaws.com/kasback/agam:uioue832jksj
-2019-01-11 00:56:25 INFO  com.kasback.abstestbase.AbstractTest.getDriver(AbstractTest.java:80) - false
-2019-01-11 00:56:25 INFO  com.kasback.abstestbase.AbstractTest.getDriver(AbstractTest.java:98) - running on browser chrome
-2019-01-11 00:56:25 INFO  com.kasback.abstestbase.AbstractTest.getDriver(AbstractTest.java:100) - chrome
-2019-01-11 00:56:25 INFO  com.kasback.abstestbase.AbstractTest.getDriver(AbstractTest.java:150) - starting chrome driver on local
-2019-01-11 00:56:29 INFO  com.kasback.utils.PostgresqlUtil.<init>(PostgresqlUtil.java:30) - jdbc:mysql://kasback.chrp5tjafhuc.ap-south-1.rds.amazonaws.com/kasback/agam:uioue832jksj
-2019-01-11 00:56:30 INFO  com.kasback.utils.PostgresqlUtil.<init>(PostgresqlUtil.java:30) - jdbc:mysql://kasback.chrp5tjafhuc.ap-south-1.rds.amazonaws.com/kasback/agam:uioue832jksj
-2019-01-11 00:56:30 INFO  com.kasback.utils.PostgresqlUtil.executeUpdateQuery(PostgresqlUtil.java:100) - update kasback.user set is_deleted=0 where email='username9946@gmail.com';
-2019-01-11 00:56:52 INFO  com.kasback.utils.PostgresqlUtil.<init>(PostgresqlUtil.java:30) - jdbc:mysql://kasback.chrp5tjafhuc.ap-south-1.rds.amazonaws.com/kasback/agam:uioue832jksj
+2019-01-11 21:43:00 INFO  com.kasback.abstestbase.AbstractTest.printBanner(AbstractTest.java:69) - ========================================= TEST SUITE STARTED ================================
+2019-01-11 21:43:00 INFO  com.kasback.abstestbase.AbstractTest.beforesuite(AbstractTest.java:38) - before env->test
+2019-01-11 21:43:00 INFO  com.kasback.abstestbase.AbstractTest.beforesuite(AbstractTest.java:39) - before browser->chrome
+2019-01-11 21:43:01 INFO  com.kasback.utils.PostgresqlUtil.<init>(PostgresqlUtil.java:30) - jdbc:mysql://kasback.chrp5tjafhuc.ap-south-1.rds.amazonaws.com/kasback/agam:uioue832jksj
+2019-01-11 21:43:02 INFO  com.kasback.abstestbase.AbstractTest.getDriver(AbstractTest.java:80) - false
+2019-01-11 21:43:02 INFO  com.kasback.abstestbase.AbstractTest.getDriver(AbstractTest.java:98) - running on browser chrome
+2019-01-11 21:43:02 INFO  com.kasback.abstestbase.AbstractTest.getDriver(AbstractTest.java:100) - chrome
+2019-01-11 21:43:02 INFO  com.kasback.abstestbase.AbstractTest.getDriver(AbstractTest.java:150) - starting chrome driver on local
+2019-01-11 21:43:06 INFO  com.kasback.utils.PostgresqlUtil.<init>(PostgresqlUtil.java:30) - jdbc:mysql://kasback.chrp5tjafhuc.ap-south-1.rds.amazonaws.com/kasback/agam:uioue832jksj
+2019-01-11 21:43:07 INFO  com.kasback.utils.PostgresqlUtil.<init>(PostgresqlUtil.java:30) - jdbc:mysql://kasback.chrp5tjafhuc.ap-south-1.rds.amazonaws.com/kasback/agam:uioue832jksj
+2019-01-11 21:43:30 INFO  com.kasback.utils.PostgresqlUtil.<init>(PostgresqlUtil.java:30) - jdbc:mysql://kasback.chrp5tjafhuc.ap-south-1.rds.amazonaws.com/kasback/agam:uioue832jksj
+2019-01-11 21:44:07 INFO  com.kasback.pages.KasbackAddNewListingPage.addProductDetails(KasbackAddNewListingPage.java:89) - Product created Successfully

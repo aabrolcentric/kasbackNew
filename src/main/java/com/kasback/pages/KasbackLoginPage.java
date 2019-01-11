@@ -95,6 +95,15 @@ public class KasbackLoginPage extends AbstractPage{
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		};
+		try {
+			if(isWebElementPresent("okButton")==true) {
+			String errorText=getWebElementText("loginErrorContent");
+			log.info(errorText);
+			click(getWebElement("okButton"));
+			}
+		}catch(NoSuchElementException e) {
+			log.info("Login Not Successful");
+		}
 		click(getWebElement("okButton"));
 	}
 	

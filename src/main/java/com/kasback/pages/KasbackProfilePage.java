@@ -2,6 +2,7 @@ package com.kasback.pages;
 
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
 import com.kasback.abstestbase.AbstractPage;
@@ -42,6 +43,15 @@ public class KasbackProfilePage extends AbstractPage{
 		}else {
 			log.info(field + " field is disabled");
 		}
+	}
+	
+	public void editField(String field, String value) {
+		clear(getWebElement(field));
+		getWebElement(field).sendKeys(value);
+	}
+	
+	public void clickButton(String field) {
+		click(getWebElement(field));
 	}
 	
 	public void checkFieldValidation(String field, String content) {

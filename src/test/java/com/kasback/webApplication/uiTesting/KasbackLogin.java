@@ -19,6 +19,7 @@ public class KasbackLogin extends AbstractTest{
 	String existingSeller = "username9946@gmail.com";
 	String unverifiedSeller="usename1827@gmail.com";
 	String existingSellerCaseSensitive = "USERNAME9946@GMAIL.COM";
+	String blockedSeller="username4651@gmail.com";
 	
 	@Test
 	public void loginWithExistingCustomer() {
@@ -46,7 +47,7 @@ public class KasbackLogin extends AbstractTest{
 		loginPage.login(unverifiedSeller);
 	}
 	
-	//Block a Buyer and try to create new account with same email ID
+	//Add blocked user
 	@Test
 	public void loginWithBlockedBuyer() {
 		driver=getDriver();
@@ -54,6 +55,7 @@ public class KasbackLogin extends AbstractTest{
 		loginPage.browseURL(environment.get("baseurl"));
 		loginPage.login(blockedUser);
 	}
+	
 	
 	//Try to Create Account as a Seller with existing credentials
 	@Test
@@ -115,6 +117,17 @@ public class KasbackLogin extends AbstractTest{
 		loginPage.browseURL(environment.get("signupurl"));
 		loginPage = new KasbackLoginPage(driver);
 		loginPage.signUpWithBlockedId(blockedUser);
+	}
+	
+	//Block a Seller and try to create new account with same email ID
+	@Test
+	public void signUpWithBockedSellerId() {
+		driver = getDriver();
+		loginPage = new KasbackLoginPage(driver);
+		System.out.println(environment.get("signupurl"));
+		loginPage.browseURL(environment.get("signupurl"));
+		loginPage = new KasbackLoginPage(driver);
+		loginPage.signUpWithBlockedId(blockedSeller);
 	}
 	
 	@Test(dependsOnMethods="buyerSignUp")

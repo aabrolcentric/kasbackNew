@@ -14,6 +14,7 @@ public class KasbackProfile extends AbstractTest{
 	KasbackProfilePage profilePage = null;
 	String existingUserId = "username2299@gmail.com";
 	String existingPassword = "Test@1";
+	String existingSeller = "username9946@gmail.com";
 	
 	@Test
 	public void loginWithExistingCustomerAndGoToProfilePage() {
@@ -38,6 +39,20 @@ public class KasbackProfile extends AbstractTest{
 		profilePage.checkFieldValidation("phone", "aaaaaaaaaa");
 		String validationText = profilePage.getWebElementText("phoneValidationText");
 		Assert.assertEquals(validationText, "Valid phone number is required");
+	}
+	
+	//Try to Edit Seller Profile
+	@Test
+	public void editSellerProfile() {
+		driver = getDriver();
+		loginPage = new KasbackLoginPage(driver);
+		profilePage = new KasbackProfilePage(driver);
+		loginPage.browseURL(environment.get("baseurl"));
+		loginPage.login(existingSeller);
+		profilePage.goToEditProfile();
+		profilePage.editField("zipcode", "123123");
+		profilePage.clickButton("updateProfileButton");
+		profilePage.clickButton("okButtonOnPopup");
 	}
 	
 	
