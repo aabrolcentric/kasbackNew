@@ -50,8 +50,8 @@ public class KasbackOrderSummary extends AbstractTest{
 		summaryPage.viewShippingDetailsAndVerify("shipped");
 	}
 	
-	@AfterClass
-	public void afterClass() {
-		driver.close();
-	}
+//	@AfterClass
+//	public void afterClass() {
+//		driver.close();
+//	}
 }

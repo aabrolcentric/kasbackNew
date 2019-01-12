@@ -1,12 +1,18 @@
-2019-01-12 15:20:56 INFO  com.kasback.abstestbase.AbstractTest.printBanner(AbstractTest.java:69) - ========================================= TEST SUITE STARTED ================================
-2019-01-12 15:20:56 INFO  com.kasback.abstestbase.AbstractTest.beforesuite(AbstractTest.java:38) - before env->test
-2019-01-12 15:20:56 INFO  com.kasback.abstestbase.AbstractTest.beforesuite(AbstractTest.java:39) - before browser->chrome
-2019-01-12 15:20:56 INFO  com.kasback.utils.PostgresqlUtil.<init>(PostgresqlUtil.java:30) - jdbc:mysql://kasback.chrp5tjafhuc.ap-south-1.rds.amazonaws.com/kasback/agam:uioue832jksj
-2019-01-12 15:20:58 INFO  com.kasback.abstestbase.AbstractTest.getDriver(AbstractTest.java:80) - false
-2019-01-12 15:20:58 INFO  com.kasback.abstestbase.AbstractTest.getDriver(AbstractTest.java:98) - running on browser chrome
-2019-01-12 15:20:58 INFO  com.kasback.abstestbase.AbstractTest.getDriver(AbstractTest.java:100) - chrome
-2019-01-12 15:20:58 INFO  com.kasback.abstestbase.AbstractTest.getDriver(AbstractTest.java:150) - starting chrome driver on local
-2019-01-12 15:21:04 INFO  com.kasback.utils.PostgresqlUtil.<init>(PostgresqlUtil.java:30) - jdbc:mysql://kasback.chrp5tjafhuc.ap-south-1.rds.amazonaws.com/kasback/agam:uioue832jksj
-2019-01-12 15:21:04 INFO  com.kasback.utils.PostgresqlUtil.<init>(PostgresqlUtil.java:30) - jdbc:mysql://kasback.chrp5tjafhuc.ap-south-1.rds.amazonaws.com/kasback/agam:uioue832jksj
-2019-01-12 15:21:25 INFO  com.kasback.utils.PostgresqlUtil.<init>(PostgresqlUtil.java:30) - jdbc:mysql://kasback.chrp5tjafhuc.ap-south-1.rds.amazonaws.com/kasback/agam:uioue832jksj
-2019-01-12 15:22:02 INFO  com.kasback.pages.KasbackAddNewListingPage.addProductDetails(KasbackAddNewListingPage.java:89) - Product created Successfully
+2019-01-12 18:13:34 INFO  com.kasback.abstestbase.AbstractTest.printBanner(AbstractTest.java:69) - ========================================= TEST SUITE STARTED ================================
+2019-01-12 18:13:34 INFO  com.kasback.abstestbase.AbstractTest.beforesuite(AbstractTest.java:38) - before env->test
+2019-01-12 18:13:34 INFO  com.kasback.abstestbase.AbstractTest.beforesuite(AbstractTest.java:39) - before browser->chrome
+2019-01-12 18:13:34 INFO  com.kasback.utils.PostgresqlUtil.<init>(PostgresqlUtil.java:30) - jdbc:mysql://kasback.chrp5tjafhuc.ap-south-1.rds.amazonaws.com/kasback/agam:uioue832jksj
+2019-01-12 18:13:36 INFO  com.kasback.abstestbase.AbstractTest.getDriver(AbstractTest.java:80) - false
+2019-01-12 18:13:36 INFO  com.kasback.abstestbase.AbstractTest.getDriver(AbstractTest.java:98) - running on browser chrome
+2019-01-12 18:13:36 INFO  com.kasback.abstestbase.AbstractTest.getDriver(AbstractTest.java:100) - chrome
+2019-01-12 18:13:36 INFO  com.kasback.abstestbase.AbstractTest.getDriver(AbstractTest.java:150) - starting chrome driver on local
+2019-01-12 18:13:40 INFO  com.kasback.utils.PostgresqlUtil.<init>(PostgresqlUtil.java:30) - jdbc:mysql://kasback.chrp5tjafhuc.ap-south-1.rds.amazonaws.com/kasback/agam:uioue832jksj
+2019-01-12 18:13:41 INFO  com.kasback.utils.PostgresqlUtil.<init>(PostgresqlUtil.java:30) - jdbc:mysql://kasback.chrp5tjafhuc.ap-south-1.rds.amazonaws.com/kasback/agam:uioue832jksj
+2019-01-12 18:13:42 INFO  com.kasback.utils.PostgresqlUtil.<init>(PostgresqlUtil.java:30) - jdbc:mysql://kasback.chrp5tjafhuc.ap-south-1.rds.amazonaws.com/kasback/agam:uioue832jksj
+2019-01-12 18:13:43 INFO  com.kasback.utils.PostgresqlUtil.<init>(PostgresqlUtil.java:30) - jdbc:mysql://kasback.chrp5tjafhuc.ap-south-1.rds.amazonaws.com/kasback/agam:uioue832jksj
+2019-01-12 18:14:06 INFO  com.kasback.utils.PostgresqlUtil.<init>(PostgresqlUtil.java:30) - jdbc:mysql://kasback.chrp5tjafhuc.ap-south-1.rds.amazonaws.com/kasback/agam:uioue832jksj
+2019-01-12 18:14:19 INFO  com.kasback.utils.PostgresqlUtil.<init>(PostgresqlUtil.java:30) - jdbc:mysql://kasback.chrp5tjafhuc.ap-south-1.rds.amazonaws.com/kasback/agam:uioue832jksj
+2019-01-12 18:14:23 INFO  com.kasback.utils.PostgresqlUtil.<init>(PostgresqlUtil.java:30) - jdbc:mysql://kasback.chrp5tjafhuc.ap-south-1.rds.amazonaws.com/kasback/agam:uioue832jksj
+2019-01-12 18:14:34 INFO  com.kasback.pages.KasbackOrderSummaryPage.verifyOrderDetails(KasbackOrderSummaryPage.java:41) - Sat Jan 12 18:14:34 IST 2019
+2019-01-12 18:14:34 INFO  com.kasback.pages.KasbackOrderSummaryPage.verifyOrderDetails(KasbackOrderSummaryPage.java:45) - current month and date: Jan 12
+2019-01-12 18:14:47 INFO  com.kasback.pages.KasbackOrderSummaryPage.verifyOrderDetails(KasbackOrderSummaryPage.java:48) - ordered date: Jan 12, 2019 6:14:31 PM

@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.kasback.webApplication.uiTesting.KasbackAddNewListing">
+      <class name="com.kasback.webApplication.uiTesting.KasbackOrderSummary">
         <methods>
-          <include name="uploadImageInWrongFormat"/>
           <include name="beforesuite"/>
-          <include name="AddNewListing"/>
+          <include name="verifyOrderSummary"/>
         </methods>
-      </class> <!-- com.kasback.webApplication.uiTesting.KasbackAddNewListing -->
+      </class> <!-- com.kasback.webApplication.uiTesting.KasbackOrderSummary -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

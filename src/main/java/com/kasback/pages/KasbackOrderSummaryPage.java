@@ -38,11 +38,14 @@ public class KasbackOrderSummaryPage extends AbstractPage {
 		long millis = System.currentTimeMillis();
 		java.util.Date date = new java.util.Date(millis);
 		String currentDateAndTime = date.toString();
+		log.info(currentDateAndTime);
 		String currentMonth = currentDateAndTime.substring(4, 7);
-		String currentDate = currentDateAndTime.substring(9, 11);
+		String currentDate = currentDateAndTime.substring(8, 10);
 		String currentMonthAndDate = currentMonth + " " + currentDate;
+		log.info("current month and date: " + currentMonthAndDate);
 		goToOrderSummaryPage();
 		String orderDate = getWebElementText("orderedDate");
+		log.info("ordered date: "+orderDate);
 		Assert.assertEquals(currentMonthAndDate, orderDate.substring(0, 6).replace(",", " "));
 	}
 
