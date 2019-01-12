@@ -1,235 +1,217 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//ef7a2b73-868c-43b8-aa0d-8123a7edd2d9.png"><p align="left">           Fri Jan 11 21:43:18 IST 2019</p>]]>
+      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//e463e440-fe94-4643-bc86-a627a35d4083.png"><p align="left">           Sat Jan 12 15:21:13 IST 2019</p>]]>
     </line>
     <line>
-      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//ef7a2b73-868c-43b8-aa0d-8123a7edd2d9.png" alt="executed onFri Jan 11 21:43:18 IST 2019"/></p></a></font></td>]]>
-    </line>
-    <line>
-      <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr>]]>
-    </line>
-    <line>
-      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//eee77ccd-5c35-4c4b-aeea-8d2e9e000a0d.png"><p align="left">           Fri Jan 11 21:43:20 IST 2019</p>]]>
-    </line>
-    <line>
-      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//eee77ccd-5c35-4c4b-aeea-8d2e9e000a0d.png" alt="executed onFri Jan 11 21:43:20 IST 2019"/></p></a></font></td>]]>
+      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//e463e440-fe94-4643-bc86-a627a35d4083.png" alt="executed onSat Jan 12 15:21:13 IST 2019"/></p></a></font></td>]]>
     </line>
     <line>
       <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr>]]>
     </line>
     <line>
-      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//06d19304-b480-4f23-b409-c2176889d6ca.png"><p align="left">           Fri Jan 11 21:43:42 IST 2019</p>]]>
+      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//d66bc598-d4e6-486a-93fb-5ea54b901e4f.png"><p align="left">           Sat Jan 12 15:21:15 IST 2019</p>]]>
     </line>
     <line>
-      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//06d19304-b480-4f23-b409-c2176889d6ca.png" alt="executed onFri Jan 11 21:43:42 IST 2019"/></p></a></font></td>]]>
-    </line>
-    <line>
-      <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr>]]>
-    </line>
-    <line>
-      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//23258541-9a9e-4370-a8bc-05084175d023.png"><p align="left">           Fri Jan 11 21:43:45 IST 2019</p>]]>
-    </line>
-    <line>
-      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//23258541-9a9e-4370-a8bc-05084175d023.png" alt="executed onFri Jan 11 21:43:45 IST 2019"/></p></a></font></td>]]>
+      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//d66bc598-d4e6-486a-93fb-5ea54b901e4f.png" alt="executed onSat Jan 12 15:21:15 IST 2019"/></p></a></font></td>]]>
     </line>
     <line>
       <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr>]]>
     </line>
     <line>
-      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//a761b831-1511-4951-b253-cca33387352c.png"><p align="left">           Fri Jan 11 21:43:46 IST 2019</p>]]>
+      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//92c223a0-134e-47af-ade0-55553d13c734.png"><p align="left">           Sat Jan 12 15:21:37 IST 2019</p>]]>
     </line>
     <line>
-      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//a761b831-1511-4951-b253-cca33387352c.png" alt="executed onFri Jan 11 21:43:46 IST 2019"/></p></a></font></td>]]>
+      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//92c223a0-134e-47af-ade0-55553d13c734.png" alt="executed onSat Jan 12 15:21:37 IST 2019"/></p></a></font></td>]]>
+    </line>
+    <line>
+      <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr>]]>
+    </line>
+    <line>
+      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//c18373ef-5c29-464b-98e1-8b654bd38b3f.png"><p align="left">           Sat Jan 12 15:21:41 IST 2019</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//c18373ef-5c29-464b-98e1-8b654bd38b3f.png" alt="executed onSat Jan 12 15:21:41 IST 2019"/></p></a></font></td>]]>
+    </line>
+    <line>
+      <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr>]]>
+    </line>
+    <line>
+      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//c54534f0-68ac-4181-9d4a-2ef32d40f29e.png"><p align="left">           Sat Jan 12 15:21:42 IST 2019</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//c54534f0-68ac-4181-9d4a-2ef32d40f29e.png" alt="executed onSat Jan 12 15:21:42 IST 2019"/></p></a></font></td>]]>
     </line>
     <line>
       <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>type BANANATEST in input field.</b></font></td></tr>]]>
     </line>
     <line>
-      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//69e9e930-599b-4c40-babe-59bc840a0b42.png"><p align="left">           Fri Jan 11 21:43:47 IST 2019</p>]]>
+      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//9ba26b01-7588-4b67-ace5-23195ec6808d.png"><p align="left">           Sat Jan 12 15:21:43 IST 2019</p>]]>
     </line>
     <line>
-      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//69e9e930-599b-4c40-babe-59bc840a0b42.png" alt="executed onFri Jan 11 21:43:47 IST 2019"/></p></a></font></td>]]>
+      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//9ba26b01-7588-4b67-ace5-23195ec6808d.png" alt="executed onSat Jan 12 15:21:43 IST 2019"/></p></a></font></td>]]>
     </line>
     <line>
       <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>type BANANATEST in input field.</b></font></td></tr>]]>
     </line>
     <line>
-      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//9d29f1db-f05c-4cc8-a891-4bdafedfe1df.png"><p align="left">           Fri Jan 11 21:43:48 IST 2019</p>]]>
+      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//a13fe2ef-1a26-41ea-92ed-df77c80b061c.png"><p align="left">           Sat Jan 12 15:21:43 IST 2019</p>]]>
     </line>
     <line>
-      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//9d29f1db-f05c-4cc8-a891-4bdafedfe1df.png" alt="executed onFri Jan 11 21:43:48 IST 2019"/></p></a></font></td>]]>
+      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//a13fe2ef-1a26-41ea-92ed-df77c80b061c.png" alt="executed onSat Jan 12 15:21:43 IST 2019"/></p></a></font></td>]]>
     </line>
     <line>
       <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>type 12 in input field.</b></font></td></tr>]]>
     </line>
     <line>
-      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//c20f601d-1abc-4bac-8b13-8d63216aabc2.png"><p align="left">           Fri Jan 11 21:43:49 IST 2019</p>]]>
+      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//61343fc7-a838-4eb9-b737-9a9f8f0b2625.png"><p align="left">           Sat Jan 12 15:21:44 IST 2019</p>]]>
     </line>
     <line>
-      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//c20f601d-1abc-4bac-8b13-8d63216aabc2.png" alt="executed onFri Jan 11 21:43:49 IST 2019"/></p></a></font></td>]]>
+      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//61343fc7-a838-4eb9-b737-9a9f8f0b2625.png" alt="executed onSat Jan 12 15:21:44 IST 2019"/></p></a></font></td>]]>
     </line>
     <line>
       <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>select (by option)grams from the dropdown</b></font></td></tr>]]>
     </line>
     <line>
-      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//73978409-5561-4a91-a2df-d16f5448ad79.png"><p align="left">           Fri Jan 11 21:43:50 IST 2019</p>]]>
+      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//fcab10c5-68b3-45a5-9e4e-9b1e8bb8b002.png"><p align="left">           Sat Jan 12 15:21:45 IST 2019</p>]]>
     </line>
     <line>
-      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//73978409-5561-4a91-a2df-d16f5448ad79.png" alt="executed onFri Jan 11 21:43:50 IST 2019"/></p></a></font></td>]]>
+      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//fcab10c5-68b3-45a5-9e4e-9b1e8bb8b002.png" alt="executed onSat Jan 12 15:21:45 IST 2019"/></p></a></font></td>]]>
     </line>
     <line>
       <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr>]]>
     </line>
     <line>
-      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//b00072be-97ed-434f-801f-431141c6c32d.png"><p align="left">           Fri Jan 11 21:43:50 IST 2019</p>]]>
+      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//0e7cbef2-0b80-4bd4-a5c7-29fe37e39e99.png"><p align="left">           Sat Jan 12 15:21:46 IST 2019</p>]]>
     </line>
     <line>
-      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//b00072be-97ed-434f-801f-431141c6c32d.png" alt="executed onFri Jan 11 21:43:50 IST 2019"/></p></a></font></td>]]>
+      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//0e7cbef2-0b80-4bd4-a5c7-29fe37e39e99.png" alt="executed onSat Jan 12 15:21:46 IST 2019"/></p></a></font></td>]]>
     </line>
     <line>
       <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>type 2 in input field.</b></font></td></tr>]]>
     </line>
     <line>
-      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//ded273af-597f-4f65-8987-c8690eb6218f.png"><p align="left">           Fri Jan 11 21:43:51 IST 2019</p>]]>
+      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//bd54e227-a159-4ac2-9dae-8f077156d4e0.png"><p align="left">           Sat Jan 12 15:21:47 IST 2019</p>]]>
     </line>
     <line>
-      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//ded273af-597f-4f65-8987-c8690eb6218f.png" alt="executed onFri Jan 11 21:43:51 IST 2019"/></p></a></font></td>]]>
+      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//bd54e227-a159-4ac2-9dae-8f077156d4e0.png" alt="executed onSat Jan 12 15:21:47 IST 2019"/></p></a></font></td>]]>
     </line>
     <line>
-      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//ad879d9c-bd57-45e4-b871-fdacd81f3da3.png"><p align="left">           Fri Jan 11 21:43:52 IST 2019</p>]]>
+      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//8de57255-c140-4d9c-ac85-565baafcba38.png"><p align="left">           Sat Jan 12 15:21:47 IST 2019</p>]]>
     </line>
     <line>
-      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//ad879d9c-bd57-45e4-b871-fdacd81f3da3.png" alt="executed onFri Jan 11 21:43:52 IST 2019"/></p></a></font></td>]]>
-    </line>
-    <line>
-      <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>type 20 in input field.</b></font></td></tr>]]>
-    </line>
-    <line>
-      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//99dbf490-49f8-4dd4-b6a7-a33afbe0e9d9.png"><p align="left">           Fri Jan 11 21:43:53 IST 2019</p>]]>
-    </line>
-    <line>
-      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//99dbf490-49f8-4dd4-b6a7-a33afbe0e9d9.png" alt="executed onFri Jan 11 21:43:53 IST 2019"/></p></a></font></td>]]>
+      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//8de57255-c140-4d9c-ac85-565baafcba38.png" alt="executed onSat Jan 12 15:21:47 IST 2019"/></p></a></font></td>]]>
     </line>
     <line>
       <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>type 20 in input field.</b></font></td></tr>]]>
     </line>
     <line>
-      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//a30b372d-8899-4bac-927f-a3c43dd62766.png"><p align="left">           Fri Jan 11 21:43:54 IST 2019</p>]]>
+      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//e2caae91-9be9-4551-8994-a351c9bf75b3.png"><p align="left">           Sat Jan 12 15:21:48 IST 2019</p>]]>
     </line>
     <line>
-      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//a30b372d-8899-4bac-927f-a3c43dd62766.png" alt="executed onFri Jan 11 21:43:54 IST 2019"/></p></a></font></td>]]>
+      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//e2caae91-9be9-4551-8994-a351c9bf75b3.png" alt="executed onSat Jan 12 15:21:48 IST 2019"/></p></a></font></td>]]>
+    </line>
+    <line>
+      <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>type 20 in input field.</b></font></td></tr>]]>
+    </line>
+    <line>
+      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//ed03d2a6-9c3e-4514-8583-cab4aefb66d7.png"><p align="left">           Sat Jan 12 15:21:49 IST 2019</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//ed03d2a6-9c3e-4514-8583-cab4aefb66d7.png" alt="executed onSat Jan 12 15:21:49 IST 2019"/></p></a></font></td>]]>
     </line>
     <line>
       <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>type BANANATEST in input field.</b></font></td></tr>]]>
     </line>
     <line>
-      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//1ec82ff3-2982-4d24-80ea-0c166d06ac2c.png"><p align="left">           Fri Jan 11 21:43:54 IST 2019</p>]]>
+      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//7b248316-e426-40bd-83ea-3d4db78176f6.png"><p align="left">           Sat Jan 12 15:21:50 IST 2019</p>]]>
     </line>
     <line>
-      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//1ec82ff3-2982-4d24-80ea-0c166d06ac2c.png" alt="executed onFri Jan 11 21:43:54 IST 2019"/></p></a></font></td>]]>
+      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//7b248316-e426-40bd-83ea-3d4db78176f6.png" alt="executed onSat Jan 12 15:21:50 IST 2019"/></p></a></font></td>]]>
     </line>
     <line>
       <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>type BANANATEST in input field.</b></font></td></tr>]]>
     </line>
     <line>
-      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//8ce30d7a-7706-4bc1-a3a9-a898b8dda546.png"><p align="left">           Fri Jan 11 21:43:55 IST 2019</p>]]>
+      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//320b50e4-bad8-425a-b529-7dbcdc48ef18.png"><p align="left">           Sat Jan 12 15:21:51 IST 2019</p>]]>
     </line>
     <line>
-      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//8ce30d7a-7706-4bc1-a3a9-a898b8dda546.png" alt="executed onFri Jan 11 21:43:55 IST 2019"/></p></a></font></td>]]>
+      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//320b50e4-bad8-425a-b529-7dbcdc48ef18.png" alt="executed onSat Jan 12 15:21:51 IST 2019"/></p></a></font></td>]]>
     </line>
     <line>
       <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr>]]>
     </line>
     <line>
-      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//53372d3c-bda1-4a33-97f5-6459b83fe649.png"><p align="left">           Fri Jan 11 21:43:56 IST 2019</p>]]>
+      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//63c19799-3d87-4963-a020-7b2fc0520d1f.png"><p align="left">           Sat Jan 12 15:21:52 IST 2019</p>]]>
     </line>
     <line>
-      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//53372d3c-bda1-4a33-97f5-6459b83fe649.png" alt="executed onFri Jan 11 21:43:56 IST 2019"/></p></a></font></td>]]>
+      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//63c19799-3d87-4963-a020-7b2fc0520d1f.png" alt="executed onSat Jan 12 15:21:52 IST 2019"/></p></a></font></td>]]>
     </line>
     <line>
       <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>type BANANA in input field.</b></font></td></tr>]]>
     </line>
     <line>
-      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//1e640771-4aad-4f2b-ac82-44c1321cd539.png"><p align="left">           Fri Jan 11 21:43:59 IST 2019</p>]]>
+      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//b7f39385-6345-4bc7-8c42-767da9f0b31c.png"><p align="left">           Sat Jan 12 15:21:55 IST 2019</p>]]>
     </line>
     <line>
-      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//1e640771-4aad-4f2b-ac82-44c1321cd539.png" alt="executed onFri Jan 11 21:43:59 IST 2019"/></p></a></font></td>]]>
-    </line>
-    <line>
-      <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr>]]>
-    </line>
-    <line>
-      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//601cab99-2dd3-47ec-b98b-e71ba614b8e5.png"><p align="left">           Fri Jan 11 21:44:00 IST 2019</p>]]>
-    </line>
-    <line>
-      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//601cab99-2dd3-47ec-b98b-e71ba614b8e5.png" alt="executed onFri Jan 11 21:44:00 IST 2019"/></p></a></font></td>]]>
+      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//b7f39385-6345-4bc7-8c42-767da9f0b31c.png" alt="executed onSat Jan 12 15:21:55 IST 2019"/></p></a></font></td>]]>
     </line>
     <line>
       <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr>]]>
     </line>
     <line>
-      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//ea07d1ee-7f43-484d-ad2f-c2d1c8b84785.png"><p align="left">           Fri Jan 11 21:44:01 IST 2019</p>]]>
+      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//f83c5bf0-2997-4329-8593-86d8fa5e95f5.png"><p align="left">           Sat Jan 12 15:21:55 IST 2019</p>]]>
     </line>
     <line>
-      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//ea07d1ee-7f43-484d-ad2f-c2d1c8b84785.png" alt="executed onFri Jan 11 21:44:01 IST 2019"/></p></a></font></td>]]>
+      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//f83c5bf0-2997-4329-8593-86d8fa5e95f5.png" alt="executed onSat Jan 12 15:21:55 IST 2019"/></p></a></font></td>]]>
     </line>
     <line>
       <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr>]]>
     </line>
     <line>
-      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//e05b3848-fed5-4f5e-ba7f-3cfdffef7baa.png"><p align="left">           Fri Jan 11 21:44:04 IST 2019</p>]]>
+      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//ecf9596d-4708-4a4b-ab80-8d0c253374ca.png"><p align="left">           Sat Jan 12 15:21:56 IST 2019</p>]]>
     </line>
     <line>
-      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//e05b3848-fed5-4f5e-ba7f-3cfdffef7baa.png" alt="executed onFri Jan 11 21:44:04 IST 2019"/></p></a></font></td>]]>
+      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//ecf9596d-4708-4a4b-ab80-8d0c253374ca.png" alt="executed onSat Jan 12 15:21:56 IST 2019"/></p></a></font></td>]]>
+    </line>
+    <line>
+      <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr>]]>
+    </line>
+    <line>
+      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//24f53f03-0b22-419c-bb55-8adfcf5fd19c.png"><p align="left">           Sat Jan 12 15:21:59 IST 2019</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//24f53f03-0b22-419c-bb55-8adfcf5fd19c.png" alt="executed onSat Jan 12 15:21:59 IST 2019"/></p></a></font></td>]]>
     </line>
     <line>
       <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>type /Users/AgamAbrol/Downloads/kasback/src/test/resources/computer_pc_PNG7720.png in input field.</b></font></td></tr>]]>
     </line>
     <line>
-      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//1af4e549-be18-4419-8e74-42d9c562846a.png"><p align="left">           Fri Jan 11 21:44:04 IST 2019</p>]]>
+      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//16b063dc-2883-4c6a-a2d2-b611a907bd79.png"><p align="left">           Sat Jan 12 15:22:00 IST 2019</p>]]>
     </line>
     <line>
-      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//1af4e549-be18-4419-8e74-42d9c562846a.png" alt="executed onFri Jan 11 21:44:04 IST 2019"/></p></a></font></td>]]>
-    </line>
-    <line>
-      <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr>]]>
-    </line>
-    <line>
-      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//85f16d1a-10db-4c3d-80e3-17adefdfaeea.png"><p align="left">           Fri Jan 11 21:44:08 IST 2019</p>]]>
-    </line>
-    <line>
-      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//85f16d1a-10db-4c3d-80e3-17adefdfaeea.png" alt="executed onFri Jan 11 21:44:08 IST 2019"/></p></a></font></td>]]>
+      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//16b063dc-2883-4c6a-a2d2-b611a907bd79.png" alt="executed onSat Jan 12 15:22:00 IST 2019"/></p></a></font></td>]]>
     </line>
     <line>
       <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr>]]>
     </line>
     <line>
-      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//03dcd7af-304c-4cfb-b9a3-f60aefefdcfd.png"><p align="left">           Fri Jan 11 21:44:09 IST 2019</p>]]>
+      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//8b7f5070-bf8d-4136-9d04-b96fc7bd9390.png"><p align="left">           Sat Jan 12 15:22:03 IST 2019</p>]]>
     </line>
     <line>
-      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//03dcd7af-304c-4cfb-b9a3-f60aefefdcfd.png" alt="executed onFri Jan 11 21:44:09 IST 2019"/></p></a></font></td>]]>
-    </line>
-    <line>
-      <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr>]]>
-    </line>
-    <line>
-      <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//132b301e-dc6d-479e-a5fd-1fcbdfabbb04.png"><p align="left">           Fri Jan 11 21:44:09 IST 2019</p>]]>
-    </line>
-    <line>
-      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//132b301e-dc6d-479e-a5fd-1fcbdfabbb04.png" alt="executed onFri Jan 11 21:44:09 IST 2019"/></p></a></font></td>]]>
+      <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//8b7f5070-bf8d-4136-9d04-b96fc7bd9390.png" alt="executed onSat Jan 12 15:22:03 IST 2019"/></p></a></font></td>]]>
     </line>
     <line>
       <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr>]]>
     </line>
   </reporter-output>
-  <suite started-at="2019-01-11T16:13:02Z" name="Default suite" finished-at="2019-01-11T16:14:09Z" duration-ms="67547">
+  <suite started-at="2019-01-12T09:50:58Z" name="Default suite" finished-at="2019-01-12T09:52:03Z" duration-ms="65229">
     <groups>
     </groups>
-    <test started-at="2019-01-11T16:13:02Z" name="Default test" finished-at="2019-01-11T16:14:09Z" duration-ms="67547">
+    <test started-at="2019-01-12T09:50:58Z" name="Default test" finished-at="2019-01-12T09:52:03Z" duration-ms="65229">
       <class name="com.kasback.webApplication.uiTesting.KasbackAddNewListing">
-        <test-method is-config="true" signature="beforesuite(java.lang.String, java.lang.String)[pri:0, instance:com.kasback.webApplication.uiTesting.KasbackAddNewListing@16eb3ea3]" started-at="2019-01-11T21:43:00Z" name="beforesuite" finished-at="2019-01-11T21:43:02Z" duration-ms="1431" status="PASS">
+        <test-method is-config="true" signature="beforesuite(java.lang.String, java.lang.String)[pri:0, instance:com.kasback.webApplication.uiTesting.KasbackAddNewListing@16eb3ea3]" started-at="2019-01-12T15:20:56Z" name="beforesuite" finished-at="2019-01-12T15:20:58Z" duration-ms="1864" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -245,236 +227,214 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforesuite -->
-        <test-method signature="AddNewListing()[pri:0, instance:com.kasback.webApplication.uiTesting.KasbackAddNewListing@16eb3ea3]" started-at="2019-01-11T21:43:02Z" name="AddNewListing" finished-at="2019-01-11T21:44:08Z" duration-ms="65791" status="PASS">
+        <test-method signature="AddNewListing()[pri:0, instance:com.kasback.webApplication.uiTesting.KasbackAddNewListing@16eb3ea3]" started-at="2019-01-12T15:20:58Z" name="AddNewListing" finished-at="2019-01-12T15:22:03Z" duration-ms="65190" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//ef7a2b73-868c-43b8-aa0d-8123a7edd2d9.png"><p align="left">           Fri Jan 11 21:43:18 IST 2019</p>]]>
+              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//e463e440-fe94-4643-bc86-a627a35d4083.png"><p align="left">           Sat Jan 12 15:21:13 IST 2019</p>]]>
             </line>
             <line>
-              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//ef7a2b73-868c-43b8-aa0d-8123a7edd2d9.png" alt="executed onFri Jan 11 21:43:18 IST 2019"/></p></a></font></td>]]>
-            </line>
-            <line>
-              <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr>]]>
-            </line>
-            <line>
-              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//eee77ccd-5c35-4c4b-aeea-8d2e9e000a0d.png"><p align="left">           Fri Jan 11 21:43:20 IST 2019</p>]]>
-            </line>
-            <line>
-              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//eee77ccd-5c35-4c4b-aeea-8d2e9e000a0d.png" alt="executed onFri Jan 11 21:43:20 IST 2019"/></p></a></font></td>]]>
+              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//e463e440-fe94-4643-bc86-a627a35d4083.png" alt="executed onSat Jan 12 15:21:13 IST 2019"/></p></a></font></td>]]>
             </line>
             <line>
               <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr>]]>
             </line>
             <line>
-              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//06d19304-b480-4f23-b409-c2176889d6ca.png"><p align="left">           Fri Jan 11 21:43:42 IST 2019</p>]]>
+              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//d66bc598-d4e6-486a-93fb-5ea54b901e4f.png"><p align="left">           Sat Jan 12 15:21:15 IST 2019</p>]]>
             </line>
             <line>
-              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//06d19304-b480-4f23-b409-c2176889d6ca.png" alt="executed onFri Jan 11 21:43:42 IST 2019"/></p></a></font></td>]]>
-            </line>
-            <line>
-              <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr>]]>
-            </line>
-            <line>
-              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//23258541-9a9e-4370-a8bc-05084175d023.png"><p align="left">           Fri Jan 11 21:43:45 IST 2019</p>]]>
-            </line>
-            <line>
-              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//23258541-9a9e-4370-a8bc-05084175d023.png" alt="executed onFri Jan 11 21:43:45 IST 2019"/></p></a></font></td>]]>
+              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//d66bc598-d4e6-486a-93fb-5ea54b901e4f.png" alt="executed onSat Jan 12 15:21:15 IST 2019"/></p></a></font></td>]]>
             </line>
             <line>
               <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr>]]>
             </line>
             <line>
-              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//a761b831-1511-4951-b253-cca33387352c.png"><p align="left">           Fri Jan 11 21:43:46 IST 2019</p>]]>
+              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//92c223a0-134e-47af-ade0-55553d13c734.png"><p align="left">           Sat Jan 12 15:21:37 IST 2019</p>]]>
             </line>
             <line>
-              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//a761b831-1511-4951-b253-cca33387352c.png" alt="executed onFri Jan 11 21:43:46 IST 2019"/></p></a></font></td>]]>
+              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//92c223a0-134e-47af-ade0-55553d13c734.png" alt="executed onSat Jan 12 15:21:37 IST 2019"/></p></a></font></td>]]>
+            </line>
+            <line>
+              <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr>]]>
+            </line>
+            <line>
+              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//c18373ef-5c29-464b-98e1-8b654bd38b3f.png"><p align="left">           Sat Jan 12 15:21:41 IST 2019</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//c18373ef-5c29-464b-98e1-8b654bd38b3f.png" alt="executed onSat Jan 12 15:21:41 IST 2019"/></p></a></font></td>]]>
+            </line>
+            <line>
+              <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr>]]>
+            </line>
+            <line>
+              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//c54534f0-68ac-4181-9d4a-2ef32d40f29e.png"><p align="left">           Sat Jan 12 15:21:42 IST 2019</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//c54534f0-68ac-4181-9d4a-2ef32d40f29e.png" alt="executed onSat Jan 12 15:21:42 IST 2019"/></p></a></font></td>]]>
             </line>
             <line>
               <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>type BANANATEST in input field.</b></font></td></tr>]]>
             </line>
             <line>
-              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//69e9e930-599b-4c40-babe-59bc840a0b42.png"><p align="left">           Fri Jan 11 21:43:47 IST 2019</p>]]>
+              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//9ba26b01-7588-4b67-ace5-23195ec6808d.png"><p align="left">           Sat Jan 12 15:21:43 IST 2019</p>]]>
             </line>
             <line>
-              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//69e9e930-599b-4c40-babe-59bc840a0b42.png" alt="executed onFri Jan 11 21:43:47 IST 2019"/></p></a></font></td>]]>
+              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//9ba26b01-7588-4b67-ace5-23195ec6808d.png" alt="executed onSat Jan 12 15:21:43 IST 2019"/></p></a></font></td>]]>
             </line>
             <line>
               <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>type BANANATEST in input field.</b></font></td></tr>]]>
             </line>
             <line>
-              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//9d29f1db-f05c-4cc8-a891-4bdafedfe1df.png"><p align="left">           Fri Jan 11 21:43:48 IST 2019</p>]]>
+              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//a13fe2ef-1a26-41ea-92ed-df77c80b061c.png"><p align="left">           Sat Jan 12 15:21:43 IST 2019</p>]]>
             </line>
             <line>
-              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//9d29f1db-f05c-4cc8-a891-4bdafedfe1df.png" alt="executed onFri Jan 11 21:43:48 IST 2019"/></p></a></font></td>]]>
+              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//a13fe2ef-1a26-41ea-92ed-df77c80b061c.png" alt="executed onSat Jan 12 15:21:43 IST 2019"/></p></a></font></td>]]>
             </line>
             <line>
               <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>type 12 in input field.</b></font></td></tr>]]>
             </line>
             <line>
-              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//c20f601d-1abc-4bac-8b13-8d63216aabc2.png"><p align="left">           Fri Jan 11 21:43:49 IST 2019</p>]]>
+              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//61343fc7-a838-4eb9-b737-9a9f8f0b2625.png"><p align="left">           Sat Jan 12 15:21:44 IST 2019</p>]]>
             </line>
             <line>
-              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//c20f601d-1abc-4bac-8b13-8d63216aabc2.png" alt="executed onFri Jan 11 21:43:49 IST 2019"/></p></a></font></td>]]>
+              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//61343fc7-a838-4eb9-b737-9a9f8f0b2625.png" alt="executed onSat Jan 12 15:21:44 IST 2019"/></p></a></font></td>]]>
             </line>
             <line>
               <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>select (by option)grams from the dropdown</b></font></td></tr>]]>
             </line>
             <line>
-              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//73978409-5561-4a91-a2df-d16f5448ad79.png"><p align="left">           Fri Jan 11 21:43:50 IST 2019</p>]]>
+              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//fcab10c5-68b3-45a5-9e4e-9b1e8bb8b002.png"><p align="left">           Sat Jan 12 15:21:45 IST 2019</p>]]>
             </line>
             <line>
-              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//73978409-5561-4a91-a2df-d16f5448ad79.png" alt="executed onFri Jan 11 21:43:50 IST 2019"/></p></a></font></td>]]>
+              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//fcab10c5-68b3-45a5-9e4e-9b1e8bb8b002.png" alt="executed onSat Jan 12 15:21:45 IST 2019"/></p></a></font></td>]]>
             </line>
             <line>
               <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr>]]>
             </line>
             <line>
-              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//b00072be-97ed-434f-801f-431141c6c32d.png"><p align="left">           Fri Jan 11 21:43:50 IST 2019</p>]]>
+              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//0e7cbef2-0b80-4bd4-a5c7-29fe37e39e99.png"><p align="left">           Sat Jan 12 15:21:46 IST 2019</p>]]>
             </line>
             <line>
-              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//b00072be-97ed-434f-801f-431141c6c32d.png" alt="executed onFri Jan 11 21:43:50 IST 2019"/></p></a></font></td>]]>
+              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//0e7cbef2-0b80-4bd4-a5c7-29fe37e39e99.png" alt="executed onSat Jan 12 15:21:46 IST 2019"/></p></a></font></td>]]>
             </line>
             <line>
               <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>type 2 in input field.</b></font></td></tr>]]>
             </line>
             <line>
-              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//ded273af-597f-4f65-8987-c8690eb6218f.png"><p align="left">           Fri Jan 11 21:43:51 IST 2019</p>]]>
+              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//bd54e227-a159-4ac2-9dae-8f077156d4e0.png"><p align="left">           Sat Jan 12 15:21:47 IST 2019</p>]]>
             </line>
             <line>
-              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//ded273af-597f-4f65-8987-c8690eb6218f.png" alt="executed onFri Jan 11 21:43:51 IST 2019"/></p></a></font></td>]]>
+              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//bd54e227-a159-4ac2-9dae-8f077156d4e0.png" alt="executed onSat Jan 12 15:21:47 IST 2019"/></p></a></font></td>]]>
             </line>
             <line>
-              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//ad879d9c-bd57-45e4-b871-fdacd81f3da3.png"><p align="left">           Fri Jan 11 21:43:52 IST 2019</p>]]>
+              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//8de57255-c140-4d9c-ac85-565baafcba38.png"><p align="left">           Sat Jan 12 15:21:47 IST 2019</p>]]>
             </line>
             <line>
-              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//ad879d9c-bd57-45e4-b871-fdacd81f3da3.png" alt="executed onFri Jan 11 21:43:52 IST 2019"/></p></a></font></td>]]>
-            </line>
-            <line>
-              <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>type 20 in input field.</b></font></td></tr>]]>
-            </line>
-            <line>
-              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//99dbf490-49f8-4dd4-b6a7-a33afbe0e9d9.png"><p align="left">           Fri Jan 11 21:43:53 IST 2019</p>]]>
-            </line>
-            <line>
-              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//99dbf490-49f8-4dd4-b6a7-a33afbe0e9d9.png" alt="executed onFri Jan 11 21:43:53 IST 2019"/></p></a></font></td>]]>
+              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//8de57255-c140-4d9c-ac85-565baafcba38.png" alt="executed onSat Jan 12 15:21:47 IST 2019"/></p></a></font></td>]]>
             </line>
             <line>
               <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>type 20 in input field.</b></font></td></tr>]]>
             </line>
             <line>
-              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//a30b372d-8899-4bac-927f-a3c43dd62766.png"><p align="left">           Fri Jan 11 21:43:54 IST 2019</p>]]>
+              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//e2caae91-9be9-4551-8994-a351c9bf75b3.png"><p align="left">           Sat Jan 12 15:21:48 IST 2019</p>]]>
             </line>
             <line>
-              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//a30b372d-8899-4bac-927f-a3c43dd62766.png" alt="executed onFri Jan 11 21:43:54 IST 2019"/></p></a></font></td>]]>
+              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//e2caae91-9be9-4551-8994-a351c9bf75b3.png" alt="executed onSat Jan 12 15:21:48 IST 2019"/></p></a></font></td>]]>
+            </line>
+            <line>
+              <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>type 20 in input field.</b></font></td></tr>]]>
+            </line>
+            <line>
+              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//ed03d2a6-9c3e-4514-8583-cab4aefb66d7.png"><p align="left">           Sat Jan 12 15:21:49 IST 2019</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//ed03d2a6-9c3e-4514-8583-cab4aefb66d7.png" alt="executed onSat Jan 12 15:21:49 IST 2019"/></p></a></font></td>]]>
             </line>
             <line>
               <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>type BANANATEST in input field.</b></font></td></tr>]]>
             </line>
             <line>
-              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//1ec82ff3-2982-4d24-80ea-0c166d06ac2c.png"><p align="left">           Fri Jan 11 21:43:54 IST 2019</p>]]>
+              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//7b248316-e426-40bd-83ea-3d4db78176f6.png"><p align="left">           Sat Jan 12 15:21:50 IST 2019</p>]]>
             </line>
             <line>
-              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//1ec82ff3-2982-4d24-80ea-0c166d06ac2c.png" alt="executed onFri Jan 11 21:43:54 IST 2019"/></p></a></font></td>]]>
+              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//7b248316-e426-40bd-83ea-3d4db78176f6.png" alt="executed onSat Jan 12 15:21:50 IST 2019"/></p></a></font></td>]]>
             </line>
             <line>
               <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>type BANANATEST in input field.</b></font></td></tr>]]>
             </line>
             <line>
-              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//8ce30d7a-7706-4bc1-a3a9-a898b8dda546.png"><p align="left">           Fri Jan 11 21:43:55 IST 2019</p>]]>
+              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//320b50e4-bad8-425a-b529-7dbcdc48ef18.png"><p align="left">           Sat Jan 12 15:21:51 IST 2019</p>]]>
             </line>
             <line>
-              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//8ce30d7a-7706-4bc1-a3a9-a898b8dda546.png" alt="executed onFri Jan 11 21:43:55 IST 2019"/></p></a></font></td>]]>
+              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//320b50e4-bad8-425a-b529-7dbcdc48ef18.png" alt="executed onSat Jan 12 15:21:51 IST 2019"/></p></a></font></td>]]>
             </line>
             <line>
               <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr>]]>
             </line>
             <line>
-              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//53372d3c-bda1-4a33-97f5-6459b83fe649.png"><p align="left">           Fri Jan 11 21:43:56 IST 2019</p>]]>
+              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//63c19799-3d87-4963-a020-7b2fc0520d1f.png"><p align="left">           Sat Jan 12 15:21:52 IST 2019</p>]]>
             </line>
             <line>
-              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//53372d3c-bda1-4a33-97f5-6459b83fe649.png" alt="executed onFri Jan 11 21:43:56 IST 2019"/></p></a></font></td>]]>
+              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//63c19799-3d87-4963-a020-7b2fc0520d1f.png" alt="executed onSat Jan 12 15:21:52 IST 2019"/></p></a></font></td>]]>
             </line>
             <line>
               <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>type BANANA in input field.</b></font></td></tr>]]>
             </line>
             <line>
-              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//1e640771-4aad-4f2b-ac82-44c1321cd539.png"><p align="left">           Fri Jan 11 21:43:59 IST 2019</p>]]>
+              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//b7f39385-6345-4bc7-8c42-767da9f0b31c.png"><p align="left">           Sat Jan 12 15:21:55 IST 2019</p>]]>
             </line>
             <line>
-              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//1e640771-4aad-4f2b-ac82-44c1321cd539.png" alt="executed onFri Jan 11 21:43:59 IST 2019"/></p></a></font></td>]]>
-            </line>
-            <line>
-              <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr>]]>
-            </line>
-            <line>
-              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//601cab99-2dd3-47ec-b98b-e71ba614b8e5.png"><p align="left">           Fri Jan 11 21:44:00 IST 2019</p>]]>
-            </line>
-            <line>
-              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//601cab99-2dd3-47ec-b98b-e71ba614b8e5.png" alt="executed onFri Jan 11 21:44:00 IST 2019"/></p></a></font></td>]]>
+              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//b7f39385-6345-4bc7-8c42-767da9f0b31c.png" alt="executed onSat Jan 12 15:21:55 IST 2019"/></p></a></font></td>]]>
             </line>
             <line>
               <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr>]]>
             </line>
             <line>
-              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//ea07d1ee-7f43-484d-ad2f-c2d1c8b84785.png"><p align="left">           Fri Jan 11 21:44:01 IST 2019</p>]]>
+              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//f83c5bf0-2997-4329-8593-86d8fa5e95f5.png"><p align="left">           Sat Jan 12 15:21:55 IST 2019</p>]]>
             </line>
             <line>
-              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//ea07d1ee-7f43-484d-ad2f-c2d1c8b84785.png" alt="executed onFri Jan 11 21:44:01 IST 2019"/></p></a></font></td>]]>
+              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//f83c5bf0-2997-4329-8593-86d8fa5e95f5.png" alt="executed onSat Jan 12 15:21:55 IST 2019"/></p></a></font></td>]]>
             </line>
             <line>
               <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr>]]>
             </line>
             <line>
-              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//e05b3848-fed5-4f5e-ba7f-3cfdffef7baa.png"><p align="left">           Fri Jan 11 21:44:04 IST 2019</p>]]>
+              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//ecf9596d-4708-4a4b-ab80-8d0c253374ca.png"><p align="left">           Sat Jan 12 15:21:56 IST 2019</p>]]>
             </line>
             <line>
-              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//e05b3848-fed5-4f5e-ba7f-3cfdffef7baa.png" alt="executed onFri Jan 11 21:44:04 IST 2019"/></p></a></font></td>]]>
+              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//ecf9596d-4708-4a4b-ab80-8d0c253374ca.png" alt="executed onSat Jan 12 15:21:56 IST 2019"/></p></a></font></td>]]>
+            </line>
+            <line>
+              <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr>]]>
+            </line>
+            <line>
+              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//24f53f03-0b22-419c-bb55-8adfcf5fd19c.png"><p align="left">           Sat Jan 12 15:21:59 IST 2019</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//24f53f03-0b22-419c-bb55-8adfcf5fd19c.png" alt="executed onSat Jan 12 15:21:59 IST 2019"/></p></a></font></td>]]>
             </line>
             <line>
               <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>type /Users/AgamAbrol/Downloads/kasback/src/test/resources/computer_pc_PNG7720.png in input field.</b></font></td></tr>]]>
             </line>
             <line>
-              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//1af4e549-be18-4419-8e74-42d9c562846a.png"><p align="left">           Fri Jan 11 21:44:04 IST 2019</p>]]>
+              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//16b063dc-2883-4c6a-a2d2-b611a907bd79.png"><p align="left">           Sat Jan 12 15:22:00 IST 2019</p>]]>
             </line>
             <line>
-              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//1af4e549-be18-4419-8e74-42d9c562846a.png" alt="executed onFri Jan 11 21:44:04 IST 2019"/></p></a></font></td>]]>
+              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//16b063dc-2883-4c6a-a2d2-b611a907bd79.png" alt="executed onSat Jan 12 15:22:00 IST 2019"/></p></a></font></td>]]>
             </line>
             <line>
               <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr>]]>
             </line>
             <line>
-              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//85f16d1a-10db-4c3d-80e3-17adefdfaeea.png"><p align="left">           Fri Jan 11 21:44:08 IST 2019</p>]]>
+              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//8b7f5070-bf8d-4136-9d04-b96fc7bd9390.png"><p align="left">           Sat Jan 12 15:22:03 IST 2019</p>]]>
             </line>
             <line>
-              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//85f16d1a-10db-4c3d-80e3-17adefdfaeea.png" alt="executed onFri Jan 11 21:44:08 IST 2019"/></p></a></font></td>]]>
+              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//8b7f5070-bf8d-4136-9d04-b96fc7bd9390.png" alt="executed onSat Jan 12 15:22:03 IST 2019"/></p></a></font></td>]]>
             </line>
             <line>
               <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr>]]>
             </line>
           </reporter-output>
         </test-method> <!-- AddNewListing -->
-        <test-method signature="deleteAProduct()[pri:0, instance:com.kasback.webApplication.uiTesting.KasbackAddNewListing@16eb3ea3]" started-at="2019-01-11T21:44:08Z" name="deleteAProduct" finished-at="2019-01-11T21:44:09Z" depends-on-methods="com.kasback.webApplication.uiTesting.KasbackAddNewListing.AddNewListing" duration-ms="1717" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//03dcd7af-304c-4cfb-b9a3-f60aefefdcfd.png"><p align="left">           Fri Jan 11 21:44:09 IST 2019</p>]]>
-            </line>
-            <line>
-              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//03dcd7af-304c-4cfb-b9a3-f60aefefdcfd.png" alt="executed onFri Jan 11 21:44:09 IST 2019"/></p></a></font></td>]]>
-            </line>
-            <line>
-              <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr>]]>
-            </line>
-            <line>
-              <![CDATA[<tr><td></td><td></td><td><font size="1" face="Comic sans MS" color="green"><a href="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//132b301e-dc6d-479e-a5fd-1fcbdfabbb04.png"><p align="left">           Fri Jan 11 21:44:09 IST 2019</p>]]>
-            </line>
-            <line>
-              <![CDATA[<p><img width="16" src="/Users/AgamAbrol/Downloads/kasback/src/test/resources/snapshots//132b301e-dc6d-479e-a5fd-1fcbdfabbb04.png" alt="executed onFri Jan 11 21:44:09 IST 2019"/></p></a></font></td>]]>
-            </line>
-            <line>
-              <![CDATA[<td><font size="2" face="Comic sans MS" color="green"><b>clicked on webelement</b></font></td></tr>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- deleteAProduct -->
       </class> <!-- com.kasback.webApplication.uiTesting.KasbackAddNewListing -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
